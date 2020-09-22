@@ -6,7 +6,7 @@
 # Downloads 7-Zip to extract Clang if it isn't available in the PATH
 function(download_and_extract_clang CLANG_DOWNLOAD_LOCATION)
 
-set(CLANG_VERSION 8.0.0)
+set(CLANG_VERSION 7.0.0)
 set(CLANG_ARCHIVE_EXT .tar.xz)
 
 if(${CMAKE_SYSTEM_NAME} STREQUAL Linux)
